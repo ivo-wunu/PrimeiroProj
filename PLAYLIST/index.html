@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLAY LIST</title>
+  <link rel="stylesheet" href="estilo/style.css">
+  
+</head>
+<body>
+  <div class="wrapper">
+    <div class="top-bar">
+      <span>Reprodução</span>
+    </div>
+    <div class="img-area">
+      <img src="" alt="">
+    </div>
+    <div class="song-details">
+      <p class="name"></p>
+      <p class="artist"></p>
+    </div>
+    <div class="progress-area">
+      <div class="progress-bar">
+        <audio id="main-audio" ></audio>
+      </div>
+      <div class="song-timer">
+        <span class="current-time">0:00</span>
+        <span class="max-duration">0:00</span>
+      </div>
+    </div>
+    <div class="controls">
+      
+      <img src="imagens/previous.png"  id="prev" class="icon material-icons">
+      <div class="play-pause">
+        <img src="imagens/play-button.png" class="material-icons play">
+      </div>
+      <img src="imagens/forward-button.png" id="next" class="icon material-icons">
+      <img src="imagens/playlist.png" id="more-music" class="material-icons icon">
+    </div>
+    <div class="music-list">
+      <div class="header">
+        <div class="row">
+          <img src="imagens/playlist.png" class= "list material-icons icon">
+          <span>Lista de Reprodução</span>
+        </div>
+        <img src="imagens/close.png" id="close" class= "material-icons icon" >
+      </div>
+      <ul> 
+      </ul>
+    </div>
+  </div>
+
+<!--Caminho para o java script-->
+  <script src="javascript/lista-musicas.js"></script>
+  <script src="javascript/script.js"></script>
+
+</body>
+</html>
